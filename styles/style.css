@@ -1,0 +1,89 @@
+body{
+  background-image: url("../images/bg-body.png");
+  font-family: 'Raleway', sans-serif;
+}
+.container{
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+border: solid 1px  #c7c7c7;
+}
+
+.card{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+ width: 45%;
+background-color: white;
+ margin: 1% 2%;
+
+}
+
+.card-data{
+  flex: auto;
+  margin: 0 5%;
+   flex-wrap: wrap;
+   padding-bottom: 5%;
+}
+.card.data h2{
+  margin: 0%;
+  padding: 0%;
+}
+.card-data a{
+  text-decoration: none;
+  background-color: #c7c7c7;
+  color:white;
+  padding: 3%;
+ font-size: 12px;
+}
+.card-data p{
+  margin-top:0%;
+  margin-bottom: 6%;
+}
+.card-image{
+  flex: auto;
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+}
+.card-image img{
+  width: 100%;
+  border-radius: 51%;
+  margin:13%;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  margin-left: 0%;
+}
+ul.social-media{
+  margin-left: -20%;
+}
+.social-media li span{
+background-color: #508fb8 ;
+color: white;
+border-radius: 51%;
+font-size: 25px;
+padding-top: 20%;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 667px) {
+body{
+padding: 0;
+}
+  .card{
+  width: 90%;
+  margin: 3% 1%;
+  border-radius: 5%;
+  }
+  .card-data{
+    margin-left: 10%;
+  }
+}
